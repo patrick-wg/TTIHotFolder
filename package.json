@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "nodemon WatchAndMoveTTIFiles.js",
+    "dev": "nodemon --verbose WatchAndMoveTTIFiles.js"
+  },
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "fs-extra": "^11.2.0",
+    "nodemon": "^3.1.4"
+  }
+}
